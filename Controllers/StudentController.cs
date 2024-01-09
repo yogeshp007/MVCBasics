@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace MVCBasics.Controllers
 {
-    //[RoutePrefix("yogesh")]
+    [RoutePrefix("mvc")]
     public class StudentController : Controller
     {
         [Route("200")]

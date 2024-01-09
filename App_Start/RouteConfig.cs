@@ -13,6 +13,8 @@ namespace MVCBasics
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            routes.MapMvcAttributeRoutes();
+
             //routes.MapRoute(
             //    name: "studentList",
             //    url: "view-123",
